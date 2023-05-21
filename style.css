@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* Background design */
+#background{
+    background-color:aquamarine;
+    height: 110vh;
+    padding-right: 50px;
+    padding-left: 0px;
+    background-image: url("./images/White_wolf.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: left bottom;
+}
+
+/* Design for sign up form */
+#form-page{
+    background-color: rgb(43, 43, 43);
+    height: 95%;
+    width: 50%;
+    float: right;
+    margin-top: 5px;
+    box-shadow: 1px 10px 30px  black;
+    border-left: 5px solid aqua;
+    border-radius: 30px;
+}
+
+/* Logo items Design */
+#titleLogo{
+    width: 40%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 3px 15px black;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+
+#titleLogo span{
+    font-size: 50px;
+    color: aquamarine;
+}
+
+/* hover for span element in title */
+#titleLogo span:hover{
+  background: -webkit-linear-gradient(rgb(111, 202, 172), rgb(60, 138, 151));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* left side form  */
+
+#left-side{
+    width: 45%;
+    float: left;
+}
+
+/* Right side form */
+#right-side{
+    width: 45%;
+    float: right;
+}
+
+/* input-Element designs */
+.input-element{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 1px 1px rgb(0, 0, 0);
+    
+
+}
+
+/* for error message */
+.element{
+    margin-bottom: 60px;
+    position: relative;
+}
+.element p {
+    font-size: 12px;
+    display: none;
+    position: absolute;
+}
+
+/* hover for all input elements */
+.input-element:hover{
+    border-bottom: 1px solid white;
+}
+
+/* Date section style for place holder */
+input[type="date"] {
+    color: rgb(255, 255, 255);
+}
+
+/* .ccv{
+    background-image: url("./images/arrow-208-16.png");
+} */
+
+.ccv {
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+}
+
+/* Check box */
+#Check-box{
+    float: right;
+}
+/* Radio Button Design */
+.Radio-btn{
+    display: flex;
+    margin-top: 105px;
+    margin-bottom: 1px;
+}
+/* Submit Button  */
+#submit-button{
+    width: 500px;
+    background-color: aquamarine;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+#submit-button:hover{
+    background-color: aqua;
+}
+
+/* Terms and Condition */
+.form-check a{
+    text-decoration: none;
+    color: aqua;
+}
